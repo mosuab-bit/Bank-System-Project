@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7F726A0-6AED-4CFA-80BD-2781BF10A4DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bank_Project_C_</RootNamespace>
+    <AssemblyName>Bank Project C#</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUpdateClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdateClientForm.Designer.cs">
+      <DependentUpon>AddUpdateClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUpdatePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdatePerson.Designer.cs">
+      <DependentUpon>AddUpdatePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdateUser.Designer.cs">
+      <DependentUpon>AddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePincode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePincode.Designer.cs">
+      <DependentUpon>ChangePincode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientInfo.Designer.cs">
+      <DependentUpon>ClientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsGlobalClient.cs" />
+    <Compile Include="clsGlobalUser.cs" />
+    <Compile Include="clsValidating.cs" />
+    <Compile Include="CustomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomForm.Designer.cs">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepositeByUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositeByUserForm.Designer.cs">
+      <DependentUpon>DepositeByUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepositForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositForm.Designer.cs">
+      <DependentUpon>DepositForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListClientForm.Designer.cs">
+      <DependentUpon>ListClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListPeopleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListPeopleForm.Designer.cs">
+      <DependentUpon>ListPeopleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListTransferByUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListTransferByUserForm.Designer.cs">
+      <DependentUpon>ListTransferByUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListUserForm.Designer.cs">
+      <DependentUpon>ListUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginRegistersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginRegistersForm.Designer.cs">
+      <DependentUpon>LoginRegistersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginUserForm.Designer.cs">
+      <DependentUpon>LoginUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PinCodeForm.Designer.cs">
+      <DependentUpon>PinCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPersonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPersonForm.Designer.cs">
+      <DependentUpon>ShowPersonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferByUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferByUserForm.Designer.cs">
+      <DependentUpon>TransferByUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferForm.Designer.cs">
+      <DependentUpon>TransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCClientInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCClientInfo.Designer.cs">
+      <DependentUpon>UCClientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPersonCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPersonCardWithFilter.Designer.cs">
+      <DependentUpon>UCPersonCardWithFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPersonInfo.Designer.cs">
+      <DependentUpon>UCPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserInfo.Designer.cs">
+      <DependentUpon>UCUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoForm.Designer.cs">
+      <DependentUpon>UserInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithdrawByUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawByUserForm.Designer.cs">
+      <DependentUpon>WithdrawByUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WithdrawScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawScreen.Designer.cs">
+      <DependentUpon>WithdrawScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginClientForm.Designer.cs">
+      <DependentUpon>LoginClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainSignScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainSignScreen.Designer.cs">
+      <DependentUpon>MainSignScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenueForm.Designer.cs">
+      <DependentUpon>MainMenueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddUpdateClientForm.resx">
+      <DependentUpon>AddUpdateClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUpdatePerson.resx">
+      <DependentUpon>AddUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUpdateUser.resx">
+      <DependentUpon>AddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePincode.resx">
+      <DependentUpon>ChangePincode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfo.resx">
+      <DependentUpon>ClientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomForm.resx">
+      <DependentUpon>CustomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositeByUserForm.resx">
+      <DependentUpon>DepositeByUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositForm.resx">
+      <DependentUpon>DepositForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListClientForm.resx">
+      <DependentUpon>ListClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPeopleForm.resx">
+      <DependentUpon>ListPeopleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListTransferByUserForm.resx">
+      <DependentUpon>ListTransferByUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListUserForm.resx">
+      <DependentUpon>ListUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginRegistersForm.resx">
+      <DependentUpon>LoginRegistersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUserForm.resx">
+      <DependentUpon>LoginUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinCodeForm.resx">
+      <DependentUpon>PinCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPersonForm.resx">
+      <DependentUpon>ShowPersonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferByUserForm.resx">
+      <DependentUpon>TransferByUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferForm.resx">
+      <DependentUpon>TransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCClientInfo.resx">
+      <DependentUpon>UCClientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPersonCardWithFilter.resx">
+      <DependentUpon>UCPersonCardWithFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPersonInfo.resx">
+      <DependentUpon>UCPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserInfo.resx">
+      <DependentUpon>UCUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoForm.resx">
+      <DependentUpon>UserInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawByUserForm.resx">
+      <DependentUpon>WithdrawByUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawScreen.resx">
+      <DependentUpon>WithdrawScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginClientForm.resx">
+      <DependentUpon>LoginClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainSignScreen.resx">
+      <DependentUpon>MainSignScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenueForm.resx">
+      <DependentUpon>MainMenueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business Layer\Business Layer.csproj">
+      <Project>{717e3bf3-80db-4612-a4fe-da832d4ce358}</Project>
+      <Name>Business Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best-banks-2021-40543452.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\662951710156171.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank_transaction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_out %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_settings %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANI-20231003085524.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\153-1531291_transparent-world-bank-logo-png-world-bank-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pincode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\withdrawal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\withdrawal 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deposit 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pincode_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank-account-balance-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currency_dollar_sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wire_transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user 32 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\national number.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users 72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geography %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client_add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %283%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

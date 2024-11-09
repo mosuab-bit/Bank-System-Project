@@ -1,0 +1,74 @@
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.exe.config
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.exe
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.pdb
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Business Layer.dll
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Business Layer.pdb
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.AssemblyReference.cache
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.Properties.Resources.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.GenerateResource.cache
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.CoreCompileInputs.cache
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Pro.16EA6C51.Up2Date
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.exe
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.pdb
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Data Layer.dll
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Data Layer.pdb
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.MainMenueForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ManageUserForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UpdateUserForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ManageClientForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UpdateClientForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.TransactionsForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.MainSignScreen.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginClientForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ClientForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.WithdrawScreen.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.CustomForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.DepositForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.TransferForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.PinCodeForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginUserForm.resources
+D:\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginRegistersForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.exe.config
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.exe
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Bank Project C#.pdb
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Business Layer.dll
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Data Layer.dll
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Business Layer.pdb
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\bin\Debug\Data Layer.pdb
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.AssemblyReference.cache
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.AddUpdateClientForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.AddUpdatePerson.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.AddUpdateUser.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ChangePasswordForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ChangePincode.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ClientForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ClientInfo.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.CustomForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.DepositeByUserForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.DepositForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ListClientForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ListPeopleForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ListUserForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginRegistersForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginUserForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.PinCodeForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ShowPersonForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.TransferForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UCClientInfo.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UCPersonCardWithFilter.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UCPersonInfo.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UCUserInfo.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.UserInfoForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.WithdrawByUserForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.WithdrawScreen.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.LoginClientForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.MainSignScreen.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.MainMenueForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.Properties.Resources.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.GenerateResource.cache
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.csproj.CoreCompileInputs.cache
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Pro.16EA6C51.Up2Date
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.exe
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank Project C#.pdb
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.ListTransferByUserForm.resources
+D:\Data\Cources Programming Devices\Course 18\Bank Project C#\Bank Project C#\obj\Debug\Bank_Project_C_.TransferByUserForm.resources
